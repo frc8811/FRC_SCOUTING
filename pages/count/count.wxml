@@ -1,8 +1,5 @@
 <!--pages/count/count.wxml-->
 
-<!-- 标题 -->
-<!-- <view class="tytle" style="font-size:25px;text-align:center;width:100%;font-weight:bold;">赛场数据收集系统</view> -->
-
 <form action="aftersubmit" catchsubmit="SubmitAndUpload" catchreset="ResetAndReset">
 
 <!-- 基本信息组件 -->

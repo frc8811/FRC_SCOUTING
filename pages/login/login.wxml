@@ -1,28 +1,20 @@
 <!--pages/login/login.wxml-->
-<!-- <view>
-  <image src="C:/Users/Administer/WeChatProjects/miniprogram-2/images/rapidreact.png" class="season"></image>
-</view> -->
+
 <view class="welcome">
 <text class="title">欢迎来到\n</text>
 <view class="des1"><text class="des">FRC赛场数据收集系统！</text></view>
-<!-- <view class="des"><text>公测期间限时免密登录 --8811</text></view> -->
-<!-- <h1>公测期间限时  </h1><h1 class="bold">免密登录 </h1><h1> --8811</h1> -->
-<!-- <view><h1>请输入以下信息完成登录：</h1></view> -->
+
 </view>
 <view class="loginform">
 <form id="TeamLogin" catchsubmit="check_login">
 <view>
-  <!-- <view><p class="upperp">队号</p></view> -->
   <view><input type="number" name="teamname" class="upper" value="{{teamname}}" placeholder="  队号"/></view>
 </view>
 <view>
-  <!-- <view><p class="lowerp">密码</p></view> -->
   <view><input type="text" name="password" class="lower" value="{{password}}" placeholder="  密码"/></view>
 </view>
 <view>
-<!-- <navigator url="../count/count"> -->
   <button form-type="submit" type="primary" style="width:71%;border-radius: 10px" class="main_button">登录</button>
-<!-- </navigator> -->
 </view>
 </form>
 
@@ -33,9 +25,7 @@
   <view wx:if="{{alertpass}}" class="alertpassword"><text class="alert">密码输入错误，请重试</text></view>
   <text>出品：FRC8811-义忠仁团队\n研发：FRC8811-义忠仁团队</text>  
 </view>
-<!-- <view>
-  <image src="..../images/logo8811.png" class="logo" wx:if="true"></image>
-</view> -->
+
 <view class="contents">
   <view class="button left"><navigator url="../dialog/dialog">更新日志</navigator></view>
   <view class="button rght"><navigator url="../contact/contact">联系我们</navigator></view>

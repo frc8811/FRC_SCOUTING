@@ -1,4 +1,5 @@
 <!--pages/item/item.wxml-->
+
 <form catchsubmit="updatedata">
 <view style="display: flex;flex-direction: row;">
 <view style="margin-left:15px">
@@ -17,7 +18,6 @@
   <view class="row" style="margin-left:10px;">
       <radio-group bindchange="radioChange" name="match_type">
       <view class="flex" style="position:relative;top:4px;left:10px">
-        <!-- <text style="text-align:center;" class="destext">比赛类型</text> -->
         <radio style="margin-top:10px;" value="练习赛" checked="{{ife}}">练习赛</radio></view>
         <view class="flex" style="position:relative;top:4px;left:10px"> 
           <radio  style="margin-top:5px;" value="资格赛" checked="{{ifq}}">资格赛</radio></view>
@@ -28,7 +28,6 @@
     </view></view>
     <view style="margin-left: 80px;">
       <radio-group bindchange="radioChange" name="team_role">
-        <!-- <view style="text-align:center;">队伍角色</view> -->
         <view class="row" style="margin-top:10px">
           <radio class="destext" checked="{{by}}" class="blue" value="b1">蓝1</radio>
           <radio class="destext" checked="{{ry}}" class="red" value="r1" style="left: 72rpx; position: relative; top: 0rpx">红1</radio>
@@ -43,7 +42,6 @@
         </view>
       </radio-group>
     </view>
-    <!-- <radio-group bindchange="radioChange" name="team_role">
       <view>
         <radio color="blue" value="b1" checked="{{by}}">blue1</radio>
         <radio color="red" value="r1" checked="{{ry}}" style="left:4px;">red1</radio>

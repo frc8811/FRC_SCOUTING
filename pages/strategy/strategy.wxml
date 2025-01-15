@@ -13,9 +13,6 @@
 </canvas>
 <view class="lower row">
 <view class='rubber' bindtap='clear' hover-class='change'>擦除</view>
-<!-- 看看需不需要加些文本框来输入双方队号这样子 -->
-<!-- 应该可以再加个保存图片按钮把图片保存下来，方便复盘战术 -->
-<!-- rgb预览器 -->
   <!-- <view style="background:{{rgb}};" bindtap="toPick" class="color-block">{{rgb}}</view> -->
   <view class="rubber" bindtap="toDraw" style="margin-left: 25rpx;margin-right: 25rpx;">画笔</view>
   <view class="rubber" bindtap="toPick">调色</view>

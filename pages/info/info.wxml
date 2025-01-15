@@ -1,5 +1,5 @@
 <!--pages/info/info.wxml-->
-<!-- <text>pages/info/info.wxml</text> -->
+
 <view style="width: 70%;position:relative;left: 15%;">
   <button type="default" bindtap="godialog" plain="true" style="width: 100%;">版本公告</button>
   <button type="default" bindtap="gocontact" plain="true" style="width: 100%;">联系我们</button>

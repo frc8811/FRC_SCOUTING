@@ -2,17 +2,11 @@
 
 <icon type="success" size="400rpx" style="position:relative;top:70rpx ;left: 175rpx;"></icon>
 <view style="width: 350rpx; text-align: center;font-size: 50rpx;font-weight: bolder;position:relative;left: 200rpx;top: 60rpx;">上传成功</view>
-<!-- </view> -->
+
 <button size="default" bindtap="tobrowse" style="top:90rpx">去查看</button>
 <view style="position:absolute;top:750rpx;width: 100%;">
   <view style="width: 80%;position: relative; top:700rpx;left:10%;text-align: center;align-content: center;height: 200rpx;">
   </view>
-  <!-- <text style="position: relative;font-size: 35rpx;left: 100rpx;width:800rpx;">
-  字典序/JSON格式/CSV格式
-  </text> -->
-    <!-- <text style="position: absolute;top: 0px; text-align: center; width: 75%;left: 12.5%;top: 38px;">
-      {{aftertrans_json}}
-    </text> -->
     <button bindtap="copytext" type="primary" size="default" style="width:75%;position: relative;top:40rpx;">将JSON格式复制到剪贴板</button>
     <view  style="position:relative;top:80rpx;left:12.5%;">
     <button bindtap="copycsvheader" type="default" size="mini" style="width:35%; height: 65px;">将CSV表头复制到剪贴板</button>

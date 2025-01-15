@@ -6,7 +6,6 @@
     <input type="number" name="targetteam" bindinput="changeteam" class="numinput"/>
     <input type="number" name="matchcode" bindinput="changecode" class="numinput"/>
     </view>
-    <!-- 别问我怎么想的value名字 -->
     <view style="display: flex;margin-left:30px;margin-top:20px;flex-direction: row;">
     <radio value="e" checked="{{estatus}}" bindtap="echange">练习赛</radio>
     <radio value="q" checked="{{qstatus}}" bindtap="qchange">资格赛</radio>
