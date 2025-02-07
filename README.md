@@ -14,7 +14,7 @@ The wechat miniprogram provides a separate account for every team to collect, up
 
 **Jul 2021**: The idea of ​​developing a data collection software started from this day
 
-**Contributors**: [Zirui Zhang](https://github.com/zhangzrjerry) and [Yue Peng](https://github.com/edward-yue-peng) from the Guangzhou No.2 High School
+**Contributors**: [Zirui Zhang](https://github.com/zhangzrjerry) and [Yue Peng](https://github.com/edward-yue-peng) from the Guangzhou No.2 High School.
 
 **GUI Design**:
 
