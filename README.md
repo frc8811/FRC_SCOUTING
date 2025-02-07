@@ -6,7 +6,7 @@ The wechat miniprogram provides a separate account for every team to collect, up
 
 ![](./assets/frc8811.svg) ![](./assets/wxml.svg) ![](./assets/nodejs.svg)
 
-**Nov. 2023**: Obtained software copyright, [2023SR1385127]()
+**Nov. 2023**: Obtained software copyright: *2023SR1385127*
 
 **Jun 2022**: The newly upgraded version is officially launched
 
